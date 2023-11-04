@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="src/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <button class="theme-button">ChangeTheme</button>
+    <div class="container">
+      <h1>
+        <strong> THE POWER OF MANIFESTATION🧘🏻‍♀️🗝 </strong>
+      </h1>
+      <h2><span class="Manifestation">Thoughts become Things</span></h2>
+
+      <hr />
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/084/682/original/manifestication.jpg?1686077472"
+        alt="mind"
+      />
+      <hr />
+      <p></p>
+      <p>
+        Manifestation is the practice of thinking aspirational thoughts with the
+        purpose of making them reality. If you keenly study your life, you'll
+        understand that everything which you have now in your life is the end
+        product of what your past thoughts and actions were. Think about the
+        areas of your life where you feel such unshakable confidence, even if
+        it’s something small like a hobby or skill. That area of your life just
+        flows, right? That’s because you have high subconscious self-worth in
+        that area, and self-worth is the law of attraction.
+        <br />
+        <br />
+        You’re already manifesting and you didn’t even realize it. Now, think of
+        an area where you just never can seem to get what you
+        want—relationships, money, career, friends, whatever That area of life
+        that always feels sticky. Is there anyone around you who models exactly
+        what you want in that area? Or did you witness or experience pain,
+        shame, or limiting beliefs around that area of life as a kid? You’re not
+        getting what you want in this part of your life (aka manifesting)
+        because of low subconscious self-worth, and your brain’s inability to
+        ‘see-to-believe’ that what you want is possible for you,”
+      </p>
+      <h3>Ways to Manifest</h3>
+      <ul>
+        <li>Make a vision board</li>
+        <li>Consider your dreams before bed</li>
+        <li>Practice the 369 manifestation method</li>
+        <li>Surround yourself with positivity</li>
+        <li>Start journaling.</li>
+      </ul>
+      <br />
+      <br />
+
+      <a
+        href="https://poosh.com/real-power-of-manifestation/"
+        target="_blank"
+        class="learn-more"
+      >
+        Learn more on Manifestation
+      </a>
+      <br />
+
+      <button class="playbutton">Subscribe to Manifest</button>
+      <br />
+    </div>
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        if (body.classList.contains("dark")) {
+          body.classList.remove("dark");
+        } else {
+          body.classList.add("dark");
+        }
+      }
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+      function contact() {
+        let firstName = prompt("What is your first name?");
+        let email = prompt("What is your email address?");
+        let desire = prompt("What do you want to manifest?");
+        let age = prompt("What is your age?");
+        if ((age = 16)) {
+          alert(
+            "Hi " +
+              firstName +
+              "! Have fun manifesting " +
+              desire +
+              ". Thank you for subscribing."
+          );
+        }
+      }
+
+      let contactButton = document.querySelector(".playbutton");
+      contactButton.addEventListener("click", contact);
+    </script>
+    <p>This page was built by Thamandree Govender (Ronel)</p>
+  </body>
+</html>
