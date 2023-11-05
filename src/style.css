@@ -96,3 +96,9 @@
       color: black;
       font-size: large;
     }
+    @media (max-width: 576px) {
+
+  .manifest {
+    display: none;
+  }
+}
