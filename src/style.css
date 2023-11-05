@@ -86,13 +86,13 @@
       text-decoration: underline;
     }
     .dark {
-      background-color: black;
+      background-color:royalblue;
       color: black;
     }
     .dark .container {
       background: #f5c7f7;
     }
     .dark a {
-      color: red;
+      color: black;
       font-size: large;
     }
